@@ -3,14 +3,11 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  #API_HOST: apps.67b1ca818535348782f05e90.ap1.techzone.ibm.com
-  # platform_api_prefix is not required to change for ApiConnect on Cloud
-  #PLATFORM_API_PREFIX: apim-demo-mgmt-platform-api-tools
   API_HOST: apps.itz-nqwb10.infra02-lb.dal12.techzone.ibm.com
-  # platform_api_prefix is not required to change for ApiConnect on Cloud
-  PLATFORM_API_PREFIX: platform-api
   PROVIDER_ORG: myorg
-  API_FOLDERS: APIfolder
+  INSECURE_SKIP_TLS_VERIFY: true
+  API_FILES: APIfolder/photos.yaml
+  PLATFORM_API_PREFIX: small-mgmt-platform-api-integration
 jobs:
   run-discovery:
     runs-on: ubuntu-latest
