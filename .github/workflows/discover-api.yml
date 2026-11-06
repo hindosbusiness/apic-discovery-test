@@ -10,6 +10,7 @@ env:
   #API_FILES: gmail-api.json
   #API_FILES: gmail-api.json,mit-api.json,gmail-api.yaml,APIfolder/uber-api.json
   API_FOLDERS: APIfolder
+  API_KEY: 67826024-15e2-4f7e-94d5-bbe9916c17eb
   
 jobs:
   check_changes_job:
