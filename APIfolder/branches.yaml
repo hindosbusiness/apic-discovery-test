@@ -1,0 +1,17 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: branches
+  version: 1.0.0
+  namespace: default-project
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./branches-spec.yml
+  policy-sequence:
+    - $ref: default-project:assembly-branches:1.0.0
+  cors:
+    $ref: default-project:cors-branches:1.0.0
+  properties:
+    $ref: default-project:properties-branches:1.0.0
