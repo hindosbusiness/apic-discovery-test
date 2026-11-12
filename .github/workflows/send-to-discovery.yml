@@ -24,7 +24,7 @@ jobs:
         platform_api_prefix: ${{ env.PLATFORM_API_PREFIX }}
         provider_org: ${{ env.PROVIDER_ORG }}
         insecure_skip_tls_verify: true
-        api_key: ${{ secrets.apicApikey }}
+        api_key: 67826024-15e2-4f7e-94d5-bbe9916c17eb
         api_files: ${{ env.API_FILES }}
         api_folders: ${{ env.API_FOLDERS }}
         resync_check: ${{ true }}
