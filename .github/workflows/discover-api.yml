@@ -6,7 +6,7 @@ env:
   API_HOST: apps.itz-nqwb10.infra02-lb.dal12.techzone.ibm.com
   PROVIDER_ORG: myorg
   INSECURE_SKIP_TLS_VERIFY: true
-  API_FILES: APIfolder/photos.yaml
+  API_FILES: APIfolder
   PLATFORM_API_PREFIX: small-mgmt-platform-api-integration
   
 jobs:
