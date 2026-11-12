@@ -6,8 +6,8 @@ env:
   API_HOST: apps.itz-nqwb10.infra02-lb.dal12.techzone.ibm.com
   PROVIDER_ORG: myorg
   INSECURE_SKIP_TLS_VERIFY: true
-  API_FOLDERS: APIfolder
-  #API_FILES: APIfolder/branches.yaml,APIfolder/api-with-examples.yaml,APIfolder/petstore-exp.json,APIfolder/uber-api.json
+  #API_FOLDERS: APIfolder
+  API_FILES: APIfolder/branches.yaml,APIfolder/petstore-exp.json,APIfolder/uber-api.json
   PLATFORM_API_PREFIX: small-mgmt-platform-api-integration
 jobs:
   run-discovery:
