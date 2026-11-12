@@ -2,7 +2,7 @@ kind: API
 apiVersion: api.ibm.com/v1
 metadata:
   name: branches
-  version: 3.0.0
+  version: 1.0.0
   namespace: default-project
   tags: []
   type: REST
